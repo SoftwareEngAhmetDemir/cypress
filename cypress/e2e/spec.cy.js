@@ -15,7 +15,7 @@ it("test form", function () {
   x.forEach((e) => {
     setTimeout(() => {
       y.type(e);
-    }, 500);
+    }, 1000);
   });
   /* ==== End Cypress Studio ==== */
 });
