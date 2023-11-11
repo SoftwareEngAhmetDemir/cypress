@@ -18,6 +18,7 @@ function App() {
         <br />
         <input type="submit" value={"submit"} />
       </form>
+      <input id="typing"/>
     </div>
   );
 }

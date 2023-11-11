@@ -7,5 +7,6 @@ it('test form', function() {
   cy.get('[name="surename"]').clear('he');
   cy.get('[name="surename"]').type('hekko cypress');
   cy.get('[type="submit"]').click();
+  cy.get('#typing').type('This test has been Written By Ahmet Demir to show the cypress abilities ... ... ... !!! !!! !!!')
   /* ==== End Cypress Studio ==== */
 });
