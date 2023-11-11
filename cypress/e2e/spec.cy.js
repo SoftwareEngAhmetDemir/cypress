@@ -2,6 +2,7 @@
 let x = [
   "This test has been Written By Ahmet Demir to show the cypress abilities ... ... ... !!! !!! !!!",
 ];
+
 it("test form", function () {
   /* ==== Generated with Cypress Studio ==== */
   cy.visit("localhost:3000");
