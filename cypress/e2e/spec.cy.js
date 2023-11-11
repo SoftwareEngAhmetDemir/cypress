@@ -10,11 +10,12 @@ it("test form", function () {
   cy.get('[name="surename"]').clear("he");
   cy.get('[name="surename"]').type("hekko cypress");
   cy.get('[type="submit"]').click();
-  let y = cy.get("#typing");
+  let y = "";
 
   x.forEach((e) => {
+    y+=e;
     setTimeout(() => {
-      y.type(e);
+      cy.get("#typing").type(y)
     }, 1000);
   });
   /* ==== End Cypress Studio ==== */
