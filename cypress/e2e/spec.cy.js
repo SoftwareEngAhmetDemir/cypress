@@ -1,6 +1,6 @@
 /* ==== Test Created with Cypress Studio ==== */
 let x = [
-  "trying sali gununde !!! ?? This test has been Written By Ahmet Demir to show the cypress abilities ... ... ... !!! !!! !!! ",
+  "hello extratik dijital !!!! ???  ",
 ];
 
 it("test form", function () {
